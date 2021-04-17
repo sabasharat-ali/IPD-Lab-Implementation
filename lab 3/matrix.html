@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.0/math.js" integrity="sha512-bd8Oth+p1rTn+/iUFHsSozuYn7JpmH59vMWe6L+M3huScB/SMTXWkQoME3Ytk0sbGJ40VGp2mO2b8K8FNrewfQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <center>
+        <div style="background-color:aqua" >
+        <h1>SYED AHMED BASHARAT ALI</h1>
+        <h1>EP-1849104</h1>
+        <h2>IAD lab assignment 2</h2>
+        </div>
+    </center>
+        <center>
+        <div style=" background-color:greenyellow; ">
+        <h1>MATRIX CALCULATOR</h1>
+        </div>
+        </center>
+        <br>
+        <div style="font-size:200%">
+        <label for="nom">ENTER THE NUMBER OF MATRICES </label><input type="number" min="1" max="2" name="" id="nom">
+        <button onclick="numOfMat()" id="pointer">PROCEED</button>
+    </div>
+        <script>
+        document.getElementById("pointer").style.cursor = "pointer";
+        </script>
+        <br>
+        <div>
+            <p id="mat"></p>
+            <p id="rowcol"></p>
+            <div id="vals"></div>
+            <div id="matopr"></div>
+        </div>
+    </div>
+
+    <script src="./matrix.js"></script>
+</body>
+</html>
